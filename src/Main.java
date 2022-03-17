@@ -10,10 +10,10 @@ public class Main {
         int accountWithoutBonuses = initialAccount + depositAmount; //счёт без бонусов
         if (numberOfBonuses >= 10) {
             int finalScore = accountWithoutBonuses + numberOfBonuses; //счёт с бонусами
-            System.out.println("Общий счёт составил: " + finalScore + " рублей");
-            System.out.println("Количество бонусов составляет: " + numberOfBonuses);
+            System.out.println("Общий счёт составил: " + finalScore + " рублей"); // счёт + бонусы
+            System.out.println("Количество бонусных рублей составляет: " + numberOfBonuses + " рублей"); //количество бонусов
         } else {
-            System.out.println("Общий счёт составил: " + accountWithoutBonuses + " рублей");
+            System.out.println("Общий счёт составил: " + accountWithoutBonuses + " рублей"); //счёт без бонусов
         }
 
     }
